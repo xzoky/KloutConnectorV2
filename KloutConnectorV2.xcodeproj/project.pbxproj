@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88A65DE0157E728900EEB74F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		88AEB3E8157E65980022C65A /* libKloutConnectorV2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKloutConnectorV2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AEB3EB157E65980022C65A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		88AEB3EF157E65980022C65A /* KloutConnectorV2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KloutConnectorV2-Prefix.pch"; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 		88AEB3DD157E65970022C65A = {
 			isa = PBXGroup;
 			children = (
+				88A65DE0157E728900EEB74F /* README.md */,
 				88AEB3ED157E65980022C65A /* KloutConnector */,
 				88AEB401157E65980022C65A /* KloutConnectorV2Tests */,
 				88AEB3EA157E65980022C65A /* Frameworks */,
