@@ -42,7 +42,6 @@
 		88AEB414157E65F30022C65A /* XZKloutConnectorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZKloutConnectorDelegate.h; sourceTree = "<group>"; };
 		88AEB419157E66060022C65A /* XZKloutConnectorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZKloutConnectorTests.h; sourceTree = "<group>"; };
 		88AEB41A157E66060022C65A /* XZKloutConnectorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZKloutConnectorTests.m; sourceTree = "<group>"; };
-		88AEB421157E68610022C65A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = KloutConnectorV2/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +69,6 @@
 		88AEB3DD157E65970022C65A = {
 			isa = PBXGroup;
 			children = (
-				88AEB421157E68610022C65A /* README.md */,
 				88AEB3ED157E65980022C65A /* KloutConnector */,
 				88AEB401157E65980022C65A /* KloutConnectorV2Tests */,
 				88AEB3EA157E65980022C65A /* Frameworks */,
@@ -395,6 +393,7 @@
 				88AEB40E157E65980022C65A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88AEB40F157E65980022C65A /* Build configuration list for PBXNativeTarget "KloutConnectorV2Tests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +402,7 @@
 				88AEB411157E65980022C65A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
