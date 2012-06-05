@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		88AEB3EC157E65980022C65A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AEB3EB157E65980022C65A /* Foundation.framework */; };
-		88AEB3F2157E65980022C65A /* KloutConnectorV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AEB3F1157E65980022C65A /* KloutConnectorV2.m */; };
 		88AEB3FA157E65980022C65A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AEB3F9157E65980022C65A /* SenTestingKit.framework */; };
-		88AEB3FC157E65980022C65A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AEB3FB157E65980022C65A /* UIKit.framework */; };
 		88AEB3FD157E65980022C65A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AEB3EB157E65980022C65A /* Foundation.framework */; };
-		88AEB400157E65980022C65A /* libKloutConnectorV2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AEB3E8157E65980022C65A /* libKloutConnectorV2.a */; };
 		88AEB406157E65980022C65A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88AEB404157E65980022C65A /* InfoPlist.strings */; };
-		88AEB409157E65980022C65A /* KloutConnectorV2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AEB408157E65980022C65A /* KloutConnectorV2Tests.m */; };
+		88AEB415157E65F30022C65A /* XZKloutConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AEB412157E65F30022C65A /* XZKloutConnector.h */; };
+		88AEB416157E65F30022C65A /* XZKloutConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AEB413157E65F30022C65A /* XZKloutConnector.m */; };
+		88AEB418157E65F30022C65A /* XZKloutConnectorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AEB414157E65F30022C65A /* XZKloutConnectorDelegate.h */; };
+		88AEB41B157E66060022C65A /* XZKloutConnectorTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AEB419157E66060022C65A /* XZKloutConnectorTests.h */; };
+		88AEB41D157E66060022C65A /* XZKloutConnectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AEB41A157E66060022C65A /* XZKloutConnectorTests.m */; };
+		88AEB41E157E67350022C65A /* libKloutConnectorV2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AEB3E8157E65980022C65A /* libKloutConnectorV2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		88AEB3FE157E65980022C65A /* PBXContainerItemProxy */ = {
+		88AEB41F157E673E0022C65A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 88AEB3DF157E65970022C65A /* Project object */;
 			proxyType = 1;
@@ -30,16 +32,16 @@
 /* Begin PBXFileReference section */
 		88AEB3E8157E65980022C65A /* libKloutConnectorV2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKloutConnectorV2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AEB3EB157E65980022C65A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		88AEB3EF157E65980022C65A /* KloutConnectorV2-Prefix.pch */ = {isa = PBXFileReference; path = "KloutConnectorV2-Prefix.pch"; sourceTree = "<group>"; };
-		88AEB3F0157E65980022C65A /* KloutConnectorV2.h */ = {isa = PBXFileReference; path = KloutConnectorV2.h; sourceTree = "<group>"; };
-		88AEB3F1157E65980022C65A /* KloutConnectorV2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KloutConnectorV2.m; sourceTree = "<group>"; };
+		88AEB3EF157E65980022C65A /* KloutConnectorV2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KloutConnectorV2-Prefix.pch"; sourceTree = "<group>"; };
 		88AEB3F8157E65980022C65A /* KloutConnectorV2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KloutConnectorV2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AEB3F9157E65980022C65A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		88AEB3FB157E65980022C65A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		88AEB403157E65980022C65A /* KloutConnectorV2Tests-Info.plist */ = {isa = PBXFileReference; path = "KloutConnectorV2Tests-Info.plist"; sourceTree = "<group>"; };
+		88AEB403157E65980022C65A /* KloutConnectorV2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KloutConnectorV2Tests-Info.plist"; sourceTree = "<group>"; };
 		88AEB405157E65980022C65A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		88AEB407157E65980022C65A /* KloutConnectorV2Tests.h */ = {isa = PBXFileReference; path = KloutConnectorV2Tests.h; sourceTree = "<group>"; };
-		88AEB408157E65980022C65A /* KloutConnectorV2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KloutConnectorV2Tests.m; sourceTree = "<group>"; };
+		88AEB412157E65F30022C65A /* XZKloutConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZKloutConnector.h; sourceTree = "<group>"; };
+		88AEB413157E65F30022C65A /* XZKloutConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZKloutConnector.m; sourceTree = "<group>"; };
+		88AEB414157E65F30022C65A /* XZKloutConnectorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZKloutConnectorDelegate.h; sourceTree = "<group>"; };
+		88AEB419157E66060022C65A /* XZKloutConnectorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZKloutConnectorTests.h; sourceTree = "<group>"; };
+		88AEB41A157E66060022C65A /* XZKloutConnectorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZKloutConnectorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				88AEB3FA157E65980022C65A /* SenTestingKit.framework in Frameworks */,
-				88AEB3FC157E65980022C65A /* UIKit.framework in Frameworks */,
 				88AEB3FD157E65980022C65A /* Foundation.framework in Frameworks */,
-				88AEB400157E65980022C65A /* libKloutConnectorV2.a in Frameworks */,
+				88AEB41E157E67350022C65A /* libKloutConnectorV2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +69,7 @@
 		88AEB3DD157E65970022C65A = {
 			isa = PBXGroup;
 			children = (
-				88AEB3ED157E65980022C65A /* KloutConnectorV2 */,
+				88AEB3ED157E65980022C65A /* KloutConnector */,
 				88AEB401157E65980022C65A /* KloutConnectorV2Tests */,
 				88AEB3EA157E65980022C65A /* Frameworks */,
 				88AEB3E9157E65980022C65A /* Products */,
@@ -89,18 +90,19 @@
 			children = (
 				88AEB3EB157E65980022C65A /* Foundation.framework */,
 				88AEB3F9157E65980022C65A /* SenTestingKit.framework */,
-				88AEB3FB157E65980022C65A /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		88AEB3ED157E65980022C65A /* KloutConnectorV2 */ = {
+		88AEB3ED157E65980022C65A /* KloutConnector */ = {
 			isa = PBXGroup;
 			children = (
-				88AEB3F0157E65980022C65A /* KloutConnectorV2.h */,
-				88AEB3F1157E65980022C65A /* KloutConnectorV2.m */,
+				88AEB412157E65F30022C65A /* XZKloutConnector.h */,
+				88AEB413157E65F30022C65A /* XZKloutConnector.m */,
+				88AEB414157E65F30022C65A /* XZKloutConnectorDelegate.h */,
 				88AEB3EE157E65980022C65A /* Supporting Files */,
 			);
+			name = KloutConnector;
 			path = KloutConnectorV2;
 			sourceTree = "<group>";
 		};
@@ -115,8 +117,8 @@
 		88AEB401157E65980022C65A /* KloutConnectorV2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				88AEB407157E65980022C65A /* KloutConnectorV2Tests.h */,
-				88AEB408157E65980022C65A /* KloutConnectorV2Tests.m */,
+				88AEB419157E66060022C65A /* XZKloutConnectorTests.h */,
+				88AEB41A157E66060022C65A /* XZKloutConnectorTests.m */,
 				88AEB402157E65980022C65A /* Supporting Files */,
 			);
 			path = KloutConnectorV2Tests;
@@ -138,6 +140,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88AEB415157E65F30022C65A /* XZKloutConnector.h in Headers */,
+				88AEB418157E65F30022C65A /* XZKloutConnectorDelegate.h in Headers */,
+				88AEB41B157E66060022C65A /* XZKloutConnectorTests.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +178,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				88AEB3FF157E65980022C65A /* PBXTargetDependency */,
+				88AEB420157E673E0022C65A /* PBXTargetDependency */,
 			);
 			name = KloutConnectorV2Tests;
 			productName = KloutConnectorV2Tests;
@@ -239,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88AEB3F2157E65980022C65A /* KloutConnectorV2.m in Sources */,
+				88AEB416157E65F30022C65A /* XZKloutConnector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,17 +252,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88AEB409157E65980022C65A /* KloutConnectorV2Tests.m in Sources */,
+				88AEB41D157E66060022C65A /* XZKloutConnectorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		88AEB3FF157E65980022C65A /* PBXTargetDependency */ = {
+		88AEB420157E673E0022C65A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 88AEB3E7157E65980022C65A /* KloutConnectorV2 */;
-			targetProxy = 88AEB3FE157E65980022C65A /* PBXContainerItemProxy */;
+			targetProxy = 88AEB41F157E673E0022C65A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
