@@ -16,4 +16,4 @@ HTTP requests and JSON parsing are done asynchronously. Callback methods are des
 You have to implement all 7 methods, but you can leave blank those you don't want to use.
 
 "Identity methods" return *NSStrings*, but "User methods" return *NSDictionary* objects structured like the JSON strings the API sends. Check out the Klout API Interative Console for details.
-(In these dictionaries, strings are *NSString*s and numbers such as the score or the deltas are *NSDecimalNumber*s.)
+(In these dictionaries, strings are *NSStrings* and numbers such as the score or the deltas are *NSDecimalNumbers*.)
