@@ -17,3 +17,11 @@ You have to implement all 7 methods, but you can leave blank those you don't wan
 
 "Identity methods" return *NSStrings*, but "User methods" return *NSDictionary* objects structured like the JSON strings the API sends. Check out the Klout API Interative Console for details.
 (In these dictionaries, strings are *NSStrings* and numbers such as the score or the deltas are *NSDecimalNumbers*.)
+
+License
+-------
+
+"THE BEER-WARE LICENSE" (Revision 42):
+<camille@kander.com> wrote this file. As long as you retain this notice you
+can do whatever you want with this stuff. If we meet some day, and you think
+this stuff is worth it, you can buy me a beer in return.
